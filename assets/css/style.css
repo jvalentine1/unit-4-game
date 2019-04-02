@@ -1,0 +1,67 @@
+body {
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/007/087/344/large/sergey-sobin-6.jpg?1503582688);
+}
+
+.play-window {
+    background-color: rgb(9, 245, 253);
+    border: solid 3px gray;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 35px;
+    color: rgb(122, 88, 37);
+    text-decoration: underline;
+}
+
+.instructions {
+    background-color: aquamarine;
+    width:50%;
+    color: red;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:10px;
+}
+
+.comp-score-head {
+    font-family: cursive;
+    color: darkmagenta;
+    font-size: 20px;
+}
+
+#computer-number {
+    background-color: blueviolet;
+    width:50%;
+    
+}
+
+.computer-score {
+    background-color: blueviolet;
+    color: beige;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.player-stats  {
+    background-color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    height:100px;
+    width:100px;
+}
+
+.message {
+    padding-right: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 20px;
+}
+
+.start-button {
+    background-color: darkcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

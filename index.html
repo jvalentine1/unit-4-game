@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Crystal Collector</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container.fluid">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 mt-3 p-3 play-window">
+                    <h1 class="text-center">Crystal Collector</h1>
+                    <br><br>
+                    <p class="instructions text-left">Click Start To Begin!</p>
+                    <p class="instructions text-left">Select a Crystal to increase your score!</p>
+                    <p class="instructions text-left">Try and Match computer Score!</p>
+                    <p class="text-right message"></p>
+                    <br>
+                    <button type="button" class="btn btn-primary start-button">Start</button>
+                    <br>
+                    <div class="comp-score-head text-center">Computer Score</div>
+                    <br>
+                    <p class="computer-score text-center"></p>
+                    <br><br>
+                    <table class="table player-stats">
+                            <thead>
+                              <tr>
+                                <th scope="col">Game <span class="game-count"></span></th>
+                                <th scope="col">Your Score</th>
+                                <th scope="col">Wins</th>
+                                <th scope="col">Losses</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">Stats</th>
+                                <td id="score">0</td>
+                                <td id="wins">0</td>
+                                <td id="losses">0</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <br><br>
+                          <div class="img-div text-center">
+                          <img src="http://uploads.webflow.com/5a8cfc09aee91400019461b0/5a8cffecaee91400019463c5_Asset%201%402x.png" id="gem1" class="rounded" alt="...">
+                          <img src="http://uploads.webflow.com/5a8cfc09aee91400019461b0/5a8cffecaee91400019463c4_Asset%202%402x.png" id="gem2" class="rounded" alt="...">
+                          <img src="http://uploads.webflow.com/5a8cfc09aee91400019461b0/5a8d073baee9140001946903_Asset%206%402x.png" id="gem3" class="rounded" alt="...">
+                          <img src="https://mcginnis92.github.io/crystal-game/assets/images/green.png" id="gem4" class="rounded" alt="...">
+                        </div>
+                        <br><br>
+                </div>
+                <div class="col-md-3"></div>
+                
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</html>
